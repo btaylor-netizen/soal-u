@@ -645,4 +645,43 @@ ul {
 .scroll-reveal.visible {
   opacity: 1;
   transform: translateY(0);
+  @media (max-width: 768px) {
+  .founder-section,
+  .founder-container,
+  .founder-content,
+  .about-founder,
+  .founder-wrapper {
+    display: block !important;
+    grid-template-columns: 1fr !important;
+    flex-direction: column !important;
+  }
+
+  .founder-image,
+  .founder-photo,
+  .founder-left,
+  .founder-right,
+  .founder-text {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .founder-image img,
+  .founder-photo img,
+  .founder-left img {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+  }
+
+  .founder-text,
+  .founder-right,
+  .founder-content {
+    padding: 20px !important;
+  }
+
+  h1, h2, h3 {
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+  }
+}
 }
