@@ -682,7 +682,6 @@ ul {
 
   h1, h2, h3 {
     overflow-wrap: break-word !important;
-  }
 }@media (max-width: 768px) {
   .founder-section,
   .founder-container,
