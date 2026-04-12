@@ -683,4 +683,32 @@ ul {
   h1, h2, h3 {
     overflow-wrap: break-word !important;
   }
+}@media (max-width: 768px) {
+  .founder-section,
+  .founder-container,
+  .founder-content,
+  .about-founder,
+  .founder-wrapper {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .founder-image,
+  .founder-left {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .founder-image img,
+  .founder-left img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+  }
+
+  .founder-text,
+  .founder-right {
+    width: 100% !important;
+    padding: 20px !important;
+  }
 }
