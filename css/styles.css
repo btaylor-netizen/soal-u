@@ -634,12 +634,6 @@ ul {
 
 .hero-img-sec:nth-child(3) img {
   animation: floatAnim 8s ease-in-out infinite 1s;
-}
-
-.scroll-reveal {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 
 .scroll-reveal {
   opacity: 0;
