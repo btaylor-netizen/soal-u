@@ -94,11 +94,11 @@
     <!-- Founder Section -->
     <section class="section bg-dark text-white" style="padding-bottom: 2rem;">
         <div class="container">
-            <div style="background: rgba(255,255,255,0.05); border-radius: var(--radius); display: flex; overflow: hidden; align-items: stretch; max-width: 1000px; margin: 0 auto;">
-                <div style="width: 40%;">
+            <div class="founder-card" style="background: rgba(255,255,255,0.05); border-radius: var(--radius); display: flex; overflow: hidden; align-items: stretch; max-width: 1000px; margin: 0 auto;">
+                <div class="founder-photo-col" style="width: 40%;">
                    <img src="images/founder.jpeg" alt="Brian Taylor, Founder" style="width: 100%; height: auto; object-fit: contain; display: block;">
                 </div>
-                <div style="padding: 3rem; width: 60%; display: flex; flex-direction: column; justify-content: center;">
+                <div class="founder-text-col" style="padding: 3rem; width: 60%; display: flex; flex-direction: column; justify-content: center;">
                     <h2 class="title-md" style="margin-bottom: 1rem; color: var(--primary);">FOUNDER</h2>
                     <h3 style="color: var(--white); font-size: 1.5rem; margin-bottom: 0.5rem; font-family: 'Outfit', sans-serif;">Brian Taylor</h3>
                     <ul style="list-style: none; margin-bottom: 1.5rem; color: rgba(255,255,255,0.7); font-size: 0.875rem;" class="component-list">
@@ -177,3 +177,24 @@
     <script src="js/main.js"></script>
 </body>
 </html>
+@media (max-width: 768px) {
+  .founder-card {
+    display: block !important;
+  }
+
+  .founder-photo-col,
+  .founder-text-col {
+    width: 100% !important;
+  }
+
+  .founder-text-col {
+    padding: 1.5rem !important;
+  }
+
+  .founder-photo-col img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    display: block !important;
+  }
+}
