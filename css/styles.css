@@ -702,4 +702,41 @@ ul {
     display: block !important;
   }
 }
-   
+   /* HERO MOBILE FIX */
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto !important;
+    padding-top: 120px !important;
+  }
+
+  .hero-content {
+    width: 100% !important;
+  }
+
+  .hero-image-wrapper {
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 2rem !important;
+  }
+
+  .hero-collage {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto !important;
+    gap: 1rem !important;
+  }
+
+  .hero-img-main,
+  .hero-img-sec {
+    height: auto !important;
+    grid-row: auto !important;
+  }
+
+  .hero-img-main img,
+  .hero-img-sec img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    display: block !important;
+  }
+}
