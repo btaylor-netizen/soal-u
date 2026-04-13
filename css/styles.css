@@ -683,7 +683,6 @@ ul {
  h1, h2, h3 {
   overflow-wrap: break-word !important;
 }
-
 /* MOBILE FIX */
 @media (max-width: 768px) {
   .grid-2 {
@@ -702,26 +701,6 @@ ul {
     object-fit: contain !important;
     display: block !important;
   }
-}
-
-  .grid-2 {
-    grid-template-columns: 1fr !important;
-    gap: 1.5rem !important;
-  }
-
-  .grid-2 > * {
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-
-  .grid-2 img {
-    width: 100% !important;
-    height: auto !important;
-    object-fit: contain !important;
-    display: block !important;
-  }
-
-}
 
 
 
