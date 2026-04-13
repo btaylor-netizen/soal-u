@@ -682,7 +682,7 @@ ul {
 
  h1, h2, h3 {
   overflow-wrap: break-word !important;
-}
+
 /* MOBILE FIX */
 @media (max-width: 768px) {
   .grid-2 {
