@@ -767,3 +767,24 @@ ul {
   }
 
 }
+   @media (max-width: 768px) {
+  .founder-card {
+    display: block !important;
+  }
+
+  .founder-photo-col,
+  .founder-text-col {
+    width: 100% !important;
+  }
+
+  .founder-text-col {
+    padding: 1.5rem !important;
+  }
+
+  .founder-photo-col img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    display: block !important;
+  }
+}
